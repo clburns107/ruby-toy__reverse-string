@@ -1,20 +1,23 @@
 def reverse_characters(str)
+#updated formatting
+  arr_fin=[]
+  array=str.split("")
+  x=0
 
-arr_fin=[]
-array=str.split("")
-x=0
-for loop in array
-  arr_fin<<array[x-=1]
+  for loop in array
+    arr_fin<<array[x-=1]
   end
-arr_fin.join""
+  arr_fin.join""
 end
 
+
 def reverse_words(str)
-    arr_fin=[]
-array=str.split
-x=0
-for loop in array
-  arr_fin<<array[x-=1]
+  arr_fin=[]
+  array=str.split
+  x=0
+
+  for loop in array
+    arr_fin<<array[x-=1]
   end
   arr_fin.join" "
 end
